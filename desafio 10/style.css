@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+background-color: bisque;
+}
+
+header > h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+
+}
+header {
+    background-image: linear-gradient( to bottom, rgba(0, 128, 0, 0.725), rgb(20, 64, 20));
+    padding: 10px;
+    margin: auto;
+    height: 155px;
+    display: block;
+    border: 1px black;
+
+}
+header > p {
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    ;
+}
+.Home:hover{
+    background-color: rgba(255, 255, 255, 0.363);
+
+}
+.Home {
+    padding: 4px;
+    height: 20px;
+    display: flex;
+    align-items: flex-end;
+    width: 45px;
+    
+}
+div {
+    display: flex;
+    justify-content: space-between;
+}
+.Noticias:hover {
+    background-color: rgba(255, 255, 255, 0.504);
+}
+main {
+    text-align: center;
+    box-shadow: 3px 3px 10px black;
+    background-color: white;
+   
+}
+.Noticias {
+    position: relative;
+    bottom: 22px;
+    left: 55px;
+    display: block;
+    width: 60px;
+    padding: 4px ;
+    
+}
+.Curiosidades {
+    position: relative;
+    bottom: 39px;
+    left: 125px;
+    padding: 4px;
+    width: 96px;
+    
+ 
+}
+.Curiosidades:hover {
+    background-color: rgba(255, 255, 255, 0.601);
+    
+}
+a {
+    text-decoration: none;
+    color: black;
+}
