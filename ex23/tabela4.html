@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+border-collapse: collapse;
+        }
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+        th, td {
+            border: 1px solid gray;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption> Filmes</caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupo</th>
+                <Th scope="col">Nomes</Th>
+                <th colspan="3" scope="colgroup">Filmes</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th colspan="4" scope="row">total</th>
+                <td>1000</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">mulheres
+                </th>
+                <td>ana</td>
+                <td>clauida</td>
+                <td>maria</td>
+                <td>leite</td>
+            </tr>
+            <tr>
+                <td>beatriz</td>
+                <td>pamela</td>
+                <td>vitoria</td>
+                <td>batiman</td>
+            </tr>
+            <tr>
+                <td>beatriz</td>
+                <td>pamela</td>
+                <td>vitoria</td>
+                <td>batiman</td>
+            </tr>
+            <th rowspan="3" scope="rowgroup">homes</th>
+            <td>alou</td>
+            <td>big</td>
+            <td>hero</td>
+            <td>oi</td>
+            <tr>
+                <td>alou</td>
+            <td>big</td>
+            <td>hero</td>
+            <td>oi</td>
+
+            </tr>
+            <tr>
+                <td>alou</td>
+            <td>big</td>
+            <td>hero</td>
+            <td>oi</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
