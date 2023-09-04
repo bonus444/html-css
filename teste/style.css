@@ -1,56 +1,52 @@
-@charset "UTF-8";
+@charset "UTF-8"
 
-@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap');
-
-
-@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
 :root {
-    --fonte: 'ADLaM Display', cursive;
-    --fonte2: 'Tektur', cursive;
-}
 
+    --prin: 'Abril Fatface', cursive;
+}
 * {
     padding: 0px;
     margin: 0px;
 }
-header {
-    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.76), rgba(255, 255, 0, 0.799));
-    text-align: center;
-    padding: 2em;
-    box-shadow: 5px 5px 15px black;
+header{
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.271);
+   
 }
-nav {
-background-image: linear-gradient(to top, yellow, yellow);
-text-align: left;
-margin-bottom: 20px;
-font-size: 20px;
-padding-bottom: 5px;
+header > img {
+    width: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
 }
-nav a{
+main {
+    background-color: gray;
+    margin-top: 60px;
+}
+a {
+    position: relative;
+    font-family: var(--prin);
+    font-weight: bolder;
     text-decoration: none;
-    margin-left: 10px;
-    color: black;
-    font-family: var(--fonte2);
-    text-align: left;
-    padding: 5px;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    bottom: 41px;
+    font-size: 13px;
     
 }
-nav a:hover {
-    background-color: rgba(255, 166, 0, 0.418);
-    border-radius: 10px;
+a:hover {
+color: rgb(9, 128, 9);
 }
-
-header > h1 {
-   font-family: var(--fonte);
-
-
+.c > a {
+position: relative;
+right: 50em;
+    
+    
 
 }
-div {
-   background-image: url(cartao2.png);
-   background-position: center center;
-   background-size: cover;
-   background-attachment: fixed;
+.c > img{
+    position: relative;
+    width: 35px;
+    height: 35px;
 }
