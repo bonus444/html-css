@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formlutario</title>
+</head>
+<body>
+    <h1>formulario</h1>
+    <form action="">
+        <p>
+            <label for="iest">estado</label>
+            <select name="estado" id="iest">
+
+                <option value="" selected>Escolha</option>
+                <optgroup label="Região Sudeste">
+                    <option value="SP" >São paulo</option>
+                    <option value="PI">NTO</option>
+                    <option value="RJ">Rio de janeiro</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="profe" id="iprof" list="istprof">
+        <datalist id="istprof">
+            <option value="Adm">Administracao</option>
+            <option value="Con">Contabilidade</option>
+        </datalist>
+            
+        </p>
+    
+
+
+        <p><input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+        <p> 
+            <label for="img">Mensagem</label>
+            <textarea name="msg" id="img" cols="30" rows="10"></textarea>
+        </p>
+
+    </form>
+</body>
+</html>

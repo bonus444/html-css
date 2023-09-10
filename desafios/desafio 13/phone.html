@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>phone</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+    html, body {
+
+        height: 100vh;
+        width: 100vw;
+        background-color: black;
+    }
+         body {
+            background-image: url(pacote-d013/imagens/fundo-madeira.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .tel {
+            background-image: url(pacote-d013/imagens/frame-iphone.png);
+            position: absolute;
+            height: 627px;
+            width: 311px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        main {
+        height: 100vh;
+        position: relative;
+        }
+
+        iframe#tela {
+            position: absolute;
+            height: 29.5em;
+            width: 16.6em;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        
+            
+        }
+        section#redes a > img {
+            
+            padding: 10px;
+            border-radius: 50%;
+            width: 50px
+        }
+        section#redes{
+            text-align: right;
+        }
+       
+    </style>
+</head>
+<body>
+    <main>
+       <section class="tel"></section>
+       <iframe src="home.html" name="tela" id="tela"></iframe>
+
+       
+
+       <section id="redes">
+        <a href="instagram.html" target="tela"><img src="pacote-d013/imagens/logo-instagram.jpg" alt=""></a><br>
+        <a href="home.html" target="tela"><img src="pacote-d013/imagens/logo-home.jpg" alt=""></a> <br>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+    
+       </section>
+    </main>
+</body>
+</html>

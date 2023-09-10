@@ -1,52 +1,73 @@
-@charset "UTF-8"
+@charset "UTF-8"; 
 
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
-
-:root {
-
-    --prin: 'Abril Fatface', cursive;
-}
 * {
-    padding: 0px;
     margin: 0px;
+    padding: 0px;
 }
-header{
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.271);
-   
-}
-header > img {
-    width: 80px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 30px;
-}
-main {
-    background-color: gray;
-    margin-top: 60px;
-}
-a {
-    position: relative;
-    font-family: var(--prin);
-    font-weight: bolder;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    margin: 10px;
-    bottom: 41px;
-    font-size: 13px;
+
+header {
+    background-image: url(logo-da-starbucks-significado-historia-e-evolucao-4_xl.png);
+    padding: 1.5em;
+    text-align: center;
+    background-position: left;
+    background-size: 10em;
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.296);
     
-}
-a:hover {
-color: rgb(9, 128, 9);
-}
-.c > a {
-position: relative;
-right: 50em;
-    
+
     
 
 }
-.c > img{
-    position: relative;
-    width: 35px;
-    height: 35px;
+header p {
+    padding-top: 23px;
+    padding-bottom: 23px
+}
+
+header div > a{
+    color: rgb(12, 71, 12);
+    padding-left: 15px;
+
+
+    font-size: 1.3em;
+    text-decoration: none;
+    text-align: center;
+    
+
+} 
+header a:hover {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.211);
+    transition: .10s;
+}
+th#Nome {
+    border: 1px solid black;
+    
+}
+
+table {
+    
+    border-collapse: collapse;
+
+}
+td {
+    border: 1px solid black;
+    height: 2.0em;
+    width: 6em;
+}
+caption {
+    border: 1px solid black;
+}
+.esporte, .prof, .enem {
+
+    border:1px solid  black;
+}
+
+div#box {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    background-image: url(logo-da-starbucks-significado-historia-e-evolucao-4_xl.png);
+    background-size: cover;
+    background-position: top center;
+
+
 }
