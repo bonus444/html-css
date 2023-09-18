@@ -70,16 +70,16 @@
             <fieldset>
                 <legend>Teste - output</legend>
         
-                <label for="n1">Digite o primeiro número:</label>
-                <input type="number" name="n1" id="n1" required  min="0" oninput="resultado.innerHTML 
-                = Number(n1.value) + Number(n2.value)">
-        
-                <label for="n2">Digite o segundo número:</label>
-                <input type="number" name="n2" id="n2" required min="0"     oninput="resultado.innerHTML 
-                = Number(n1.value) + Number(n2.value)">
-        
-                <label for="resultado">Resultado da soma:</label>
-                <output for="n1 n2" id="resultado"></output>
+                <label for="n1">Numero</label>
+                <input type="number" name="n1" id="n1" max="100" min="0">
+
+                <label for="n2">Numero</label>
+                <input type="number" name="n2" id="n2" max="100" min="0" oninput="">
+
+
+                <label for="resultado"></label>
+
+                <output name="resultado"></output>
         
                 <div>
                     <input type="submit" value="Enviar">
